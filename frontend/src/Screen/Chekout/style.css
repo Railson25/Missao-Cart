@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+.submission-form {
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid #e74c3c;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+label{
+    display: block;
+    padding: 1rem 0 .25rem;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+input {
+    display: block;
+    width: 100%;
+    border: 2px solid #298089;
+    padding: .5rem;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#send{
+    border: 0;
+    background-color: #343050;
+    padding: .5rem;
+    color: white;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .2s;
+}
+#send:hover{
+    background-color: #3498db;
+}
